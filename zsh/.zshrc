@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 alias python="python3"
 
 export COLORTERM=truecolor
+export LS_COLORS=$LS_COLORS:'ow=0;34'
 
 export PATH=$PATH:/opt/nvim-linux64/bin
 export PATH=$PATH:~/.local/bin
